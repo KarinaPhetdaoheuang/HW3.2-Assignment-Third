@@ -42,14 +42,69 @@ main + aside {
 }
 
 @media screen and (min-width: 768px) {
-    /* Add Tablet Content Here */
+  .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
+  .Header{
+    flex: 2;
+  }
+    
+    .Main {
+    flex: 3;
+  }
+  
+  .Aside1{
+    order: 1;
+  }
+  
+  .Aside2{
+    order: 2;
+  }
+         
+  
 }
 
 @media screen and (min-width: 1024px) {
-    /* Add Laptop Content Here */
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+  
+  .Header{
+    flex: 2;
+  }
+    
+    .Main {
+    flex: 3;
+  }
+  
+  .Aside1{
+    order: 1;
+  }
+  
+  .Aside2{
+    order: 2;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    /* Add Desktop Content Here */
+    .Header{
+    flex: 2;
+  }
+    
+    .Main {
+    flex: 3;
+  }
+  
+  .Aside1{
+    order: 1;
+  }
+  
+  .Aside2{
+    order: 2;
+  }
 }
-
